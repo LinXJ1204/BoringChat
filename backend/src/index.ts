@@ -6,12 +6,12 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT =5001;
 const server = createServer(app);
 const io = new Server(server, {
     connectionStateRecovery: {},
     cors: {
-        origin: ["http://localhost:3000", "http://192.168.212.35:3000"]
+        origin: ["http://localhost:3000", "http://192.168.212.35:3000", "http://140.119.164.32:5002"]
     }
 });
 
