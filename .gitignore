@@ -1,3 +1,5 @@
 *.js
 
 .env
+
+wrangler.toml

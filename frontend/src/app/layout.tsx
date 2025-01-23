@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Doto } from "next/font/google";
+import { Jersey_20 } from "next/font/google";
 import { Suspense } from 'react';
 import "./globals.css";
 
-const geistSans = Doto({
+const geistSans = Jersey_20({
   subsets: ['latin', 'latin-ext'],
-  weight: '600'
+  weight: '400'
 });
 
 export const metadata: Metadata = {
