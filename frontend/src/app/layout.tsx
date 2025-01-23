@@ -4,6 +4,7 @@ import { Suspense } from 'react';
 import "./globals.css";
 
 const geistSans = Doto({
+  subsets: ['latin', 'latin-ext'],
   weight: '600'
 });
 
